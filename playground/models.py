@@ -1,7 +1,7 @@
 from django.db import models
 
 class Book(models.Model):
-    title = models.CharField(max_length=255, null=True, blank=True)
+    Titel = models.CharField(max_length=255, null=True, blank=True)
     author = models.CharField(max_length=255, null=True, blank=True)
     ISBN = models.CharField(max_length=255, null=True, blank=True)
     subject = models.CharField(max_length=255, null=True, blank=True)
