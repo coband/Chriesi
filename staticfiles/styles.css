@@ -1,0 +1,71 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  background-color: #ffffff;
+  padding: 40px 50px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+}
+h1 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #333333;
+  text-align: center;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555555;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background-color: #f9fafb;
+}
+select[multiple] {
+  height: auto;
+}
+.errorlist {
+  color: #ff0033;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 0;
+}
+.errorlist li {
+  margin: 0;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0066cc;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: #005bb5;
+}
+/* Falls Sie Select2 verwenden */
+.select2-container--default .select2-selection--multiple {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 5px;
+}
