@@ -1,1 +1,1 @@
-web: gunicorn chriesiweg.wsgi
+web: gunicorn chriesiweg.wsgi --log-file -
